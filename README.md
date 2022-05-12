@@ -18,8 +18,8 @@ Movie Db is a react app listing some movies retrieve from TheMovieDb api
 
 ## Links
 
-- Source Code : [Add solution URL here](https://your-solution-url.com)
-- Live Site : [Add live site URL here](https://your-live-site-url.com)
+- Source Code : [https://github.com/mooktar/movie-db](https://github.com/mooktar/movie-db)
+- Live Site : [https://movie-db-pied.vercel.app/](https://movie-db-pied.vercel.app/)
 
 
 
@@ -37,12 +37,12 @@ Movie Db is a react app listing some movies retrieve from TheMovieDb api
 To use this app follow the instruction below:
 
 ```shell
-git clone repos
-cd folder
+git clone https://github.com/mooktar/movie-db.git
+cd movie-db
 npm install
 ```
 
-Open your browser and enter [http://localhost:3000](http://localhost:3000/) to learn more.
+Open your browser and enter [http://localhost:3000](http://localhost:3000/) to see the result.
 
 
 
