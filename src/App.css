@@ -68,12 +68,25 @@ main {
   padding-right: 0.9em;
 }
 
+.loading {
+  text-align: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-align: center;
+}
+
+.loading small {
+  font-size: 0.7em;
+  font-weight: 200;
+}
+
 .movie-wrapper {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 @media (max-width: 960px) {

@@ -33,19 +33,21 @@ function App() {
   
   return (<>
     <header>
-      <div className="container">
+      <nav className="container">
         <a href="/" className='logo'>MovieDB</a>
         <Search term={term} onSubmit={handleSubmit} onChange={setTerm} />
-      </div>
+      </nav>
     </header>
     <main>
       <div className='container'>
-        <div className='movie-wrapper'>
-          {loading
-            ? <h2>Loading...</h2>
-            : movies.map(movie => <Movie movie={movie} key={movie.id} />)
-          }
-        </div>
+        {loading
+          ? <h2 className='loading'>Loading...</h2>
+          : movies 
+            ? <div className='movie-wrapper'>
+                {movies.map(movie => <Movie movie={movie} key={movie.id} />)}
+              </div>
+            : <h2 className='loading'>No movies found 😢</h2>
+        }
       </div>
     </main>
   </>
